@@ -60,6 +60,13 @@ theme_D_durees = ( ring
                    0.25)
 
 
+## basse l'instruction "at" permet de dÃ©clarer Ã  quel temps dÃ©clencher
+at [1, 9, 17, 25, 33,41, 49, 57, 65, 73] do
+  albert num: 3, a: 0, d:0.75, s: 0.25, r: 0.5, amp:1.1, c: 50
+  play_pattern_timed theme_A_notes, theme_A_durees
+end
+
+
 ## violon 1
 at 9 do
   albert num:1
@@ -69,7 +76,7 @@ at 9 do
 end
 
 
-## violon 2 commence au 17 ème temps
+## violon 2 commence au 17 Ã¨me temps
 at 17 do
   albert num:1, amp: 1.1, s: 0.15
   #use_octave -1
@@ -79,18 +86,11 @@ at 17 do
 end
 
 
-## violon 3 commence au 25ème temps
+## violon 3 commence au 25Ã¨me temps
 at 25 do
   albert num: 5, d:0.1, s:0.1, r:0.15, amp:0.75
   play_pattern_timed theme_B_notes, theme_B_durees
   play_pattern_timed theme_C_notes, theme_C_durees
   play_pattern_timed theme_D_notes, theme_D_durees
   
-end
-
-
-## basse l'instruction "at" permet de déclarer à quelle temps déclencher
-at [1, 9, 17, 25, 33,41, 49, 57, 65, 73] do
-  albert num: 3, a: 0, d:0.75, s: 0.25, r: 0.5, amp:1.1, c: 50
-  play_pattern_timed theme_A_notes, theme_A_durees
 end
