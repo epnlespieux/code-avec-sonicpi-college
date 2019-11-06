@@ -93,7 +93,7 @@ theme_D_durees = ( ring
 # STRUCTURE
 
 
-# basse l'instruction "at" permet de déclarer à quelle temps déclencher
+# basse l'instruction "at" permet de dÃ©clarer Ã  quel temps dÃ©clencher
 at [1, 9, 17, 25, 33,41, 49, 57, 65, 73] do
   
   midi_player theme_A_notes, theme_A_durees, 'loopmidi-01', 1
@@ -113,7 +113,7 @@ at 9 do
 end
 
 
-## violon 2 commence au 17 ème temps
+## violon 2 commence au 17 Ã¨me temps
 at 17 do
   #albert num:1, amp: 1.1, s: 0.15
   #use_octave -1
@@ -123,7 +123,7 @@ at 17 do
 end
 
 
-## violon 3 commence au 25ème temps
+## violon 3 commence au 25Ã¨me temps
 at 25 do
   
   midi_player theme_B_notes, theme_B_durees, 'loopmidi-02', 2
