@@ -113,8 +113,7 @@ end
 
 ## violon 2 commence au 17 ème temps
 at 17 do
-  #albert num:1, amp: 1.1, s: 0.15
-  #use_octave -1
+  
   midi_player theme_A_notes, theme_A_durees, 'loopmidi-02', 2
   midi_player theme_B_notes, theme_B_durees, 'loopmidi-02', 2
   midi_player theme_C_notes, theme_C_durees, 'loopmidi-02', 2
@@ -122,6 +121,7 @@ end
 
 
 ## violon 3 commence au 25ème temps
+
 at 25 do
   
   midi_player theme_A_notes, theme_A_durees, 'loopmidi-02', 3
