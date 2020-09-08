@@ -1,9 +1,9 @@
 # Comment créer un morceau dans sonic pi uniquement à partir de samples externes
 # Auteur : Nicolas Le Bellier - 08/09/2020
 # pour le centre multimédia des Pieux https://centremultimedia.lespieux.fr
-#
+# Tous les samples durent 16 beats soit 4 mesures à 100 bpm
 
-# use_bpm 100 # beats per minute
+use_bpm 100 # beats per minute
 
 # A régler selon l'endroit où sont vos fichiers wav
 
